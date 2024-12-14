@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>964744318923-ujptnvq82ghddvq4maidu93k0uk39amt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.964744318923-ujptnvq82ghddvq4maidu93k0uk39amt</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>964744318923-4mmunopa30a716d05c65iveteo2vo8ip.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAX-dgmRFNbV_HS6MTnX_rhxqCmgGKQv8k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>964744318923</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alekla0126.betsmart</string>
+	<key>PROJECT_ID</key>
+	<string>soccer-c1cea</string>
+	<key>STORAGE_BUCKET</key>
+	<string>soccer-c1cea.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:964744318923:ios:62b25a1931ef8e6a70704e</string>
+	<!-- Add URL Schemes here -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<!-- Add the REVERSED_CLIENT_ID -->
+				<string>com.googleusercontent.apps.964744318923-ujptnvq82ghddvq4maidu93k0uk39amt</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
