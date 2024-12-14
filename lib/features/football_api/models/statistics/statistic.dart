@@ -1,3 +1,4 @@
+
 class Statistic {
   final String type;
   final dynamic value;

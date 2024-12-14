@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'league_stats.dart';
+import '../paging.dart';
 
 class TeamStatisticsModel {
   final int resultsCount;

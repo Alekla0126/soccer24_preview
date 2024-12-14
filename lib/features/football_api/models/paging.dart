@@ -1,3 +1,4 @@
+
 class Paging {
   final int current;
   final int total;

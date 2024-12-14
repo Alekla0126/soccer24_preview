@@ -1,8 +1,8 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:flutter/material.dart';
-
-import '../../constants/strings.dart';
 import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+
 
 class ChangeThemeDialog extends StatefulWidget {
   const ChangeThemeDialog({

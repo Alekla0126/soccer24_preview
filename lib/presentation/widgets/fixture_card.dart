@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+import '../../features/football_api/models/fixture/fixture_details.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
+import '../screens/fixture/fixture_screen.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
 import '../../constants/assets.dart';
 import '../../constants/colors.dart';
-import '../../constants/default_values.dart';
 import '../../extensions/enums.dart';
-import '../../extensions/extensions.dart';
-import '../../features/football_api/models/fixture/fixture_details.dart';
-import '../screens/fixture/fixture_screen.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
 import 'custom_image.dart';
+
 
 class FixtureCard extends StatelessWidget {
   const FixtureCard({

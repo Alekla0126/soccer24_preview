@@ -1,7 +1,7 @@
+import '../../features/ads/ads_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-import '../../features/ads/ads_manager.dart';
 
 class BannerAdInjector extends StatelessWidget {
   const BannerAdInjector({

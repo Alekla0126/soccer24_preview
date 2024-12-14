@@ -1,3 +1,4 @@
+
 class Goals {
   final int? home;
   final int? away;

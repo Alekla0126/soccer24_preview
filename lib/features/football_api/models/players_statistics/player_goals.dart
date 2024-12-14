@@ -1,3 +1,4 @@
+
 class PlayerGoals {
   final int total;
   final int conceded;

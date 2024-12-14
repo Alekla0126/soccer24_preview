@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
-import '../../constants/default_values.dart';
-import '../../extensions/enums.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/fixture/fixture_details.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/assets.dart';
+import '../../extensions/enums.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
 import 'custom_image.dart';
+
 
 class FixtureDetailsHeader extends StatelessWidget {
   const FixtureDetailsHeader({super.key, required this.fixture});

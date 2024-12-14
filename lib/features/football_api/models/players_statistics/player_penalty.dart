@@ -1,3 +1,4 @@
+
 class PlayerPenalty {
   final int won;
   final int commited;

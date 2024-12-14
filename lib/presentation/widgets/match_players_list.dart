@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gap/gap.dart';
-
-import '../../constants/default_values.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/blocs/fixture_lineups_cubit/fixture_lineups_cubit.dart';
 import '../../features/football_api/blocs/fixture_lineups_cubit/fixture_lineups_state.dart';
-import '../../features/football_api/models/lineups/start_xi.dart';
 import '../../features/football_api/models/players_statistics/player_statistics.dart';
-import 'shadowless_card.dart';
+import '../../features/football_api/models/lineups/start_xi.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
 import 'subs_player_widget.dart';
+import 'package:gap/gap.dart';
+import 'shadowless_card.dart';
+
 
 class MatchPlayersList extends StatelessWidget {
   const MatchPlayersList({

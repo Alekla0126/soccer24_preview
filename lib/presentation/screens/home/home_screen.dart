@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
-import '../../../_utils/utils.dart';
 import '../../../constants/bet_smart_icons.dart';
 import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
 import '../../../extensions/extensions.dart';
-import '../../widgets/exit_dialog.dart';
-import '../league/leagues_page.dart';
 import '../fixtures/fixtures_page_view.dart';
+import '../../../constants/strings.dart';
+import '../../widgets/exit_dialog.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../profile/profile_page.dart';
+import '../league/leagues_page.dart';
+import '../../../_utils/utils.dart';
 import '../tips/tips_page.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

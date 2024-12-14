@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
-
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/predictions/comparison.dart';
-import 'compare_widget.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
 import 'shadowless_card.dart';
+import 'compare_widget.dart';
+
 
 class ComparisonCard extends StatelessWidget {
   const ComparisonCard({super.key, required this.comparison});

@@ -1,23 +1,23 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../features/tips/repositories/tips_repository.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
+import '../screens/fixture/fixture_loading_screen.dart';
+import '../../features/tips/models/tip_model.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../constants/bet_smart_icons.dart';
 import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
 import '../../extensions/extensions.dart';
-import '../../features/tips/models/tip_model.dart';
-import '../../features/tips/repositories/tips_repository.dart';
-import '../screens/fixture/fixture_loading_screen.dart';
-import 'bet_value_widget.dart';
-import 'custom_image.dart';
-import 'expandable_text.dart';
-import 'like_button.dart';
-import 'shadowless_card.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../constants/assets.dart';
 import 'tip_processing_widget.dart';
+import '../../_utils/utils.dart';
+import 'bet_value_widget.dart';
+import 'package:gap/gap.dart';
+import 'expandable_text.dart';
+import 'shadowless_card.dart';
+import 'custom_image.dart';
+import 'like_button.dart';
+
 
 class TipCard extends StatelessWidget {
   const TipCard({super.key, required this.tip, this.preview = false});
@@ -324,4 +324,3 @@ class TipCard extends StatelessWidget {
     );
   }
 }
-

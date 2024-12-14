@@ -1,10 +1,10 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../services/api_service_error.dart';
 import '../../models/predictions/predictions_details.dart';
 import '../../repositories/fixtures_repository.dart';
-import '../api_state.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'fixture_predictions_state.dart';
+import '../api_state.dart';
+
 
 class FixturePredictionsCubit extends Cubit<ApiState> {
   final FixturesRepository _repository;

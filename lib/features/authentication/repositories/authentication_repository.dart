@@ -1,13 +1,13 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
-
-import '../../../constants/constants.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../../tips/repositories/tips_repository.dart';
-import '../auth_exception.dart';
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import '../../../constants/constants.dart';
+import 'package:flutter/material.dart';
 import '../models/user_model.dart';
+import '../auth_exception.dart';
+
 
 class AuthenticationRepository {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;

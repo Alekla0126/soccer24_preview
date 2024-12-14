@@ -1,10 +1,10 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../services/api_service_error.dart';
-import '../../models/standings/standings.dart';
 import '../../repositories/fixtures_repository.dart';
-import '../api_state.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../models/standings/standings.dart';
 import 'standings_state.dart';
+import '../api_state.dart';
+
 
 class StandingsCubit extends Cubit<ApiState> {
   final FixturesRepository _repository;

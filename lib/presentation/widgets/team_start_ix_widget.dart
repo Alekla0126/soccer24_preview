@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../features/football_api/blocs/fixture_lineups_cubit/fixture_lineups_cubit.dart';
 import '../../features/football_api/blocs/fixture_lineups_cubit/fixture_lineups_state.dart';
-import '../../features/football_api/models/lineups/start_xi.dart';
 import '../../features/football_api/models/players_statistics/player_statistics.dart';
+import '../../features/football_api/models/lineups/start_xi.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter/material.dart';
 import 'starting_player_widget.dart';
+
 
 class TeamStartXIWidget extends StatelessWidget {
   const TeamStartXIWidget({
@@ -89,4 +89,3 @@ class TeamStartXIWidget extends StatelessWidget {
     });
   }
 }
-

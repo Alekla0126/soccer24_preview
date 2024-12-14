@@ -1,16 +1,16 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_ui_firestore/firebase_ui_firestore.dart';
-import 'package:flutter/material.dart';
-
+import 'package:cloud_firestore/cloud_firestore.dart';
+import '../../../features/tips/models/tip_model.dart';
 import '../../../constants/bet_smart_icons.dart';
 import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
-import '../../../extensions/extensions.dart';
-import '../../../features/tips/models/tip_model.dart';
 import '../../widgets/banner_ad_injector.dart';
-import '../../widgets/info_widget.dart';
+import '../../../extensions/extensions.dart';
 import '../../widgets/loading_widget.dart';
+import '../../../constants/strings.dart';
+import '../../widgets/info_widget.dart';
+import 'package:flutter/material.dart';
 import '../../widgets/tip_card.dart';
+
 
 class TipsList extends StatelessWidget {
   const TipsList({super.key, required this.query});

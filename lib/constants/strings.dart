@@ -1,3 +1,4 @@
+
 class Strings {
   Strings._();
 

@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'team_statistic.dart';
+import '../paging.dart';
 
 class FixtureStatistics {
   final String fixtureStatisticsGet;

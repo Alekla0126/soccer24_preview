@@ -1,8 +1,8 @@
 import '../fixture/fixture_details.dart';
 import '../fixture/league.dart';
-import 'comparison.dart';
 import 'prediction_teams.dart';
 import 'predictions.dart';
+import 'comparison.dart';
 
 class PredictionsDetails {
   final Predictions? predictions;

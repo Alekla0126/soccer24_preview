@@ -1,6 +1,6 @@
+import '../features/ads/ads_manager.dart';
 import 'package:flutter/material.dart';
 
-import '../features/ads/ads_manager.dart';
 
 extension DateCompare on DateTime {
   int daysFromToday() {

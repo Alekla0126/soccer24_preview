@@ -1,17 +1,17 @@
-import 'package:badges/badges.dart' as badges;
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../features/tips/repositories/tips_repository.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:intl/intl.dart';
-
+import '../../features/ads/applovin/applovin_manager.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:badges/badges.dart' as badges;
 import '../../constants/bet_smart_icons.dart';
 import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
 import '../../extensions/extensions.dart';
-import '../../features/ads/applovin/applovin_manager.dart';
-import '../../features/tips/repositories/tips_repository.dart';
 import '../screens/tips/tips_list.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import 'package:intl/intl.dart';
 import 'loading_widget.dart';
+
 
 class TipsCountBadge extends StatelessWidget {
   const TipsCountBadge({super.key, required this.fixtureId});

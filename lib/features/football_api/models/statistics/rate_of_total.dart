@@ -1,3 +1,4 @@
+
 class RateOfTotal {
   final int? total;
   final String? percentage;

@@ -1,7 +1,7 @@
-import '../../../_utils/utils.dart';
-import '../../services/api_services.dart';
 import '../models/players_statistics/top_players/top_player_stats.dart';
 import '../models/players_statistics/top_players/top_players.dart';
+import '../../services/api_services.dart';
+import '../../../_utils/utils.dart';
 
 class PlayersRepository {
   Future<List<TopPlayersStats>> getTopPlayers({

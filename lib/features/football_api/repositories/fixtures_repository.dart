@@ -1,22 +1,22 @@
-import '../../../_utils/utils.dart';
-import '../../../extensions/enums.dart';
-import '../../../extensions/extensions.dart';
-import '../../services/api_services.dart';
-import '../models/events/fixture_event.dart';
-import '../models/events/fixture_events.dart';
+import '../models/players_statistics/players_statistics.dart';
+import '../models/players_statistics/players_statistic.dart';
+import '../models/predictions/predictions_details.dart';
+import '../models/lineups/fixtures_lineups_model.dart';
+import '../models/predictions/predictions_model.dart';
+import '../models/statistics/fixture_statistics.dart';
+import '../models/odds/pre_match_odds_model.dart';
+import '../models/standings/standings_model.dart';
+import '../models/statistics/team_statistic.dart';
 import '../models/fixture/fixture_details.dart';
 import '../models/fixture/fixtures_model.dart';
 import '../models/lineups/fixture_lineup.dart';
-import '../models/lineups/fixtures_lineups_model.dart';
-import '../models/odds/pre_match_odds_model.dart';
-import '../models/players_statistics/players_statistic.dart';
-import '../models/players_statistics/players_statistics.dart';
-import '../models/predictions/predictions_details.dart';
-import '../models/predictions/predictions_model.dart';
+import '../models/events/fixture_events.dart';
+import '../../../extensions/extensions.dart';
+import '../models/events/fixture_event.dart';
 import '../models/standings/standings.dart';
-import '../models/standings/standings_model.dart';
-import '../models/statistics/fixture_statistics.dart';
-import '../models/statistics/team_statistic.dart';
+import '../../services/api_services.dart';
+import '../../../extensions/enums.dart';
+import '../../../_utils/utils.dart';
 
 class FixturesRepository {
   Future<FixtureDetails> getFixtureById(int id) async {

@@ -1,3 +1,4 @@
+
 class PredictionPercent {
   final String? home;
   final String? draw;

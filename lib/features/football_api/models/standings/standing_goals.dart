@@ -1,3 +1,4 @@
+
 class StandingGoals {
   final int? goalsFor;
   final int? against;

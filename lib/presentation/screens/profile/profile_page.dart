@@ -1,24 +1,24 @@
-import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../../_utils/utils.dart';
-import '../../../constants/assets.dart';
-import '../../../constants/bet_smart_icons.dart';
-import '../../../constants/constants.dart';
-import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
-import '../../../extensions/extensions.dart';
 import '../../../features/authentication/blocs/authentication_bloc/authentication_bloc.dart';
 import '../../../features/authentication/blocs/sign_in_bloc/sign_in_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import '../../../constants/bet_smart_icons.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../constants/default_values.dart';
 import '../../widgets/change_theme_dialog.dart';
-import '../../widgets/custom_image.dart';
+import '../../../extensions/extensions.dart';
 import '../../widgets/custom_list_tile.dart';
+import '../../../constants/constants.dart';
+import '../../../constants/strings.dart';
+import '../../widgets/custom_image.dart';
+import '../../../constants/assets.dart';
+import 'package:flutter/material.dart';
 import '../tips/my_tips_screen.dart';
+import '../../../_utils/utils.dart';
 import 'contact_us_screen.dart';
+import 'package:gap/gap.dart';
+
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});

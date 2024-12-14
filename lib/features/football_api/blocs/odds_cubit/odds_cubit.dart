@@ -1,10 +1,10 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../services/api_service_error.dart';
-import '../../models/odds/bookmaker_bets.dart';
 import '../../models/odds/pre_match_odds_model.dart';
 import '../../repositories/fixtures_repository.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../models/odds/bookmaker_bets.dart';
 import '../api_state.dart';
+
 
 part 'odds_state.dart';
 

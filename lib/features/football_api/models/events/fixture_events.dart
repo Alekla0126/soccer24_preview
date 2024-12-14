@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'fixture_event.dart';
+import '../paging.dart';
 
 class FixtureEvents {
   final int resultsCount;

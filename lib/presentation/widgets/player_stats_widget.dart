@@ -1,21 +1,21 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
-import '../../constants/bet_smart_icons.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/players_statistics/player_statistics.dart';
 import '../../features/football_api/models/players_statistics/players_statistic.dart';
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/bet_smart_icons.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../constants/assets.dart';
+import '../../_utils/utils.dart';
+import 'statistics_widget.dart';
+import 'package:gap/gap.dart';
+import 'shadowless_card.dart';
+import 'player_rating.dart';
 import 'custom_image.dart';
 import 'info_widget.dart';
-import 'player_rating.dart';
-import 'shadowless_card.dart';
-import 'statistics_widget.dart';
+
 
 class PlayerStatsWidget extends StatefulWidget {
   const PlayerStatsWidget({
@@ -507,4 +507,3 @@ class _PlayerStatsWidgetState extends State<PlayerStatsWidget> {
     );
   }
 }
-

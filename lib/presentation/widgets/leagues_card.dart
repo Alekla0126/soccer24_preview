@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
+import '../../features/football_api/models/leagues/league_model.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../constants/assets.dart';
 import '../../constants/bet_smart_icons.dart';
+import '../screens/league/league_screen.dart';
 import '../../constants/default_values.dart';
 import '../../extensions/extensions.dart';
-import '../../features/football_api/models/leagues/league_model.dart';
-import '../screens/league/league_screen.dart';
+import 'package:flutter/material.dart';
+import '../../constants/assets.dart';
+import 'shadowless_card.dart';
+import 'league_widget.dart';
 import 'custom_image.dart';
 import 'info_widget.dart';
-import 'league_widget.dart';
-import 'shadowless_card.dart';
+
 
 class LeaguesCard extends StatelessWidget {
   const LeaguesCard({super.key, required this.leagues, this.title, this.icon, this.emptyMessage});

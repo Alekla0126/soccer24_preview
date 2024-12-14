@@ -1,3 +1,4 @@
+
 class Fixtures {
   final bool events;
   final bool lineups;

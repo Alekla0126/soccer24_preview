@@ -1,11 +1,11 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../services/api_service_error.dart';
-import '../../models/lineups/fixture_lineup.dart';
 import '../../models/players_statistics/players_statistic.dart';
 import '../../repositories/fixtures_repository.dart';
-import '../api_state.dart';
+import '../../../services/api_service_error.dart';
+import '../../models/lineups/fixture_lineup.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'fixture_lineups_state.dart';
+import '../api_state.dart';
+
 
 class FixtureLineupsCubit extends Cubit<ApiState> {
   final FixturesRepository _repository;

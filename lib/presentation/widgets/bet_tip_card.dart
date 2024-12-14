@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
-
-import '../../constants/bet_smart_icons.dart';
-import '../../constants/colors.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/predictions/predictions.dart';
+import '../../constants/bet_smart_icons.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../constants/colors.dart';
 import 'chance_percent_widget.dart';
+import 'package:gap/gap.dart';
 import 'shadowless_card.dart';
 import 'text_divider.dart';
+
 
 class BetTipCard extends StatelessWidget {
   const BetTipCard({

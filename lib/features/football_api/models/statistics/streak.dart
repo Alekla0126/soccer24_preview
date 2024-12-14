@@ -1,3 +1,4 @@
+
 class Streak {
   final int? wins;
   final int? draws;

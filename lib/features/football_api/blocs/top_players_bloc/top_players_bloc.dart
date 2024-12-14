@@ -1,10 +1,10 @@
-import 'package:equatable/equatable.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../services/api_service_error.dart';
 import '../../models/players_statistics/top_players/top_player_stats.dart';
 import '../../repositories/players_repository.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:equatable/equatable.dart';
 import '../api_state.dart';
+
 
 part 'top_players_event.dart';
 part 'top_players_state.dart';

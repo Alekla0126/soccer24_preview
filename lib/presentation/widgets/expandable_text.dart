@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
 import '../../constants/strings.dart';
 import '../../extensions/enums.dart';
-import '../../extensions/extensions.dart';
+
 
 class ExpandableText extends StatelessWidget {
   const ExpandableText({

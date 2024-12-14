@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'fixture_lineup.dart';
+import '../paging.dart';
 
 class FixturesLineupsModel {
   final int resultsCount;

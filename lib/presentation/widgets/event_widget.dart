@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
-import '../../constants/default_values.dart';
-import '../../extensions/enums.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/events/fixture_event.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/assets.dart';
+import '../../extensions/enums.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
 import 'custom_image.dart';
 import 'event_icon.dart';
+
 
 class EventWidget extends StatelessWidget {
   const EventWidget({super.key, required this.event, required this.isHomeEvent});

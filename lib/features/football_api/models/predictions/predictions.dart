@@ -1,5 +1,5 @@
-import 'expected_goals.dart';
 import 'prediction_percent.dart';
+import 'expected_goals.dart';
 import 'winner_team.dart';
 
 class Predictions {

@@ -1,11 +1,11 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../../extensions/enums.dart';
-import '../../../services/api_service_error.dart';
-import '../../models/events/fixture_event.dart';
 import '../../repositories/fixtures_repository.dart';
-import '../api_state.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../models/events/fixture_event.dart';
+import '../../../../extensions/enums.dart';
 import 'fixture_events_state.dart';
+import '../api_state.dart';
+
 
 class FixtureEventsCubit extends Cubit<ApiState> {
   final FixturesRepository _repository;

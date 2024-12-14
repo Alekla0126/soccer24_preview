@@ -1,16 +1,16 @@
-import '../../fixture/league.dart';
-import '../../fixture/team.dart';
-import '../../players_statistics/player_cards.dart';
+import '../../players_statistics/player_substitutes.dart';
 import '../../players_statistics/player_dribbles.dart';
+import '../../players_statistics/player_penalty.dart';
+import '../../players_statistics/player_tackles.dart';
+import '../../players_statistics/player_passes.dart';
+import '../../players_statistics/player_cards.dart';
 import '../../players_statistics/player_duels.dart';
 import '../../players_statistics/player_fouls.dart';
 import '../../players_statistics/player_games.dart';
 import '../../players_statistics/player_goals.dart';
-import '../../players_statistics/player_passes.dart';
-import '../../players_statistics/player_penalty.dart';
 import '../../players_statistics/player_shots.dart';
-import '../../players_statistics/player_substitutes.dart';
-import '../../players_statistics/player_tackles.dart';
+import '../../fixture/league.dart';
+import '../../fixture/team.dart';
 
 class TopPlayerStatistic {
   final Team team;

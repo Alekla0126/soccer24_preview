@@ -1,6 +1,6 @@
+import 'team_biggest_results.dart';
 import 'biggest_goals.dart';
 import 'streak.dart';
-import 'team_biggest_results.dart';
 
 class BiggestResults {
   final Streak? streak;

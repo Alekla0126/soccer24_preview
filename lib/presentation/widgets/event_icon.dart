@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
 import '../../constants/assets.dart';
 import '../../extensions/enums.dart';
+
 
 class EventIcon extends StatelessWidget {
   const EventIcon({super.key, required this.type, required this.detail});

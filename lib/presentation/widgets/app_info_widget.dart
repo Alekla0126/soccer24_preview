@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/default_values.dart';
+import '../../_package_info/app_info.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-import '../../_package_info/app_info.dart';
-import '../../constants/default_values.dart';
-import '../../extensions/extensions.dart';
 
 class AppInfoWidget extends StatelessWidget {
   const AppInfoWidget({super.key});

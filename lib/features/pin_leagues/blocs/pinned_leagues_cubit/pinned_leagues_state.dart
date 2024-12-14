@@ -1,3 +1,4 @@
+
 part of 'pinned_leagues_bloc.dart';
 
 class PinnedLeaguesState extends Equatable {

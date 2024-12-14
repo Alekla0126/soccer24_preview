@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+import '../../features/football_api/models/fixture/fixture_details.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
-import '../../constants/colors.dart';
 import '../../constants/default_values.dart';
 import '../../extensions/extensions.dart';
-import '../../features/football_api/models/fixture/fixture_details.dart';
-import 'custom_image.dart';
+import 'package:flutter/material.dart';
+import '../../constants/assets.dart';
+import '../../constants/colors.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
 import 'shadowless_card.dart';
+import 'custom_image.dart';
+
 
 class PredictionH2HFixtureWidget extends StatelessWidget {
   const PredictionH2HFixtureWidget({super.key, required this.fixture, this.backgroundColor});

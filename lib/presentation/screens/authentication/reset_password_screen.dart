@@ -1,15 +1,15 @@
-import 'package:email_validator/email_validator.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gap/gap.dart';
-
-import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
-import '../../../extensions/extensions.dart';
 import '../../../features/authentication/blocs/password_reset_cubit/password_reset_cubit.dart';
+import 'package:email_validator/email_validator.dart';
+import '../../widgets/outlined_text_form_field.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../constants/default_values.dart';
+import '../../../extensions/extensions.dart';
 import '../../widgets/app_info_widget.dart';
 import '../../widgets/loading_widget.dart';
-import '../../widgets/outlined_text_form_field.dart';
+import '../../../constants/strings.dart';
+import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+
 
 class ResetPasswordScreen extends StatefulWidget {
   final TextEditingController emailController;

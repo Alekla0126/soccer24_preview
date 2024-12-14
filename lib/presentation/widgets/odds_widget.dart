@@ -1,19 +1,19 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/fixture/fixture_details.dart';
-import '../../features/football_api/models/odds/bet.dart';
 import '../../features/football_api/models/odds/bet_value.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../features/football_api/models/odds/bet.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../../features/tips/models/tip_model.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import 'tip_processing_widget.dart';
+import '../../_utils/utils.dart';
 import 'bet_value_widget.dart';
 import 'shadowless_card.dart';
-import 'tip_processing_widget.dart';
+
 
 class OddsWidget extends StatelessWidget {
   const OddsWidget({

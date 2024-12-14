@@ -1,13 +1,13 @@
-import 'player_cards.dart';
 import 'player_dribbles.dart';
+import 'player_penalty.dart';
+import 'player_tackles.dart';
+import 'player_passes.dart';
+import 'player_cards.dart';
 import 'player_duels.dart';
 import 'player_fouls.dart';
 import 'player_games.dart';
 import 'player_goals.dart';
-import 'player_passes.dart';
-import 'player_penalty.dart';
 import 'player_shots.dart';
-import 'player_tackles.dart';
 
 class PlayerStatistic {
   final PlayerGames games;

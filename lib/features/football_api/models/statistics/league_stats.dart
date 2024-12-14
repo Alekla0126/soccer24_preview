@@ -1,10 +1,10 @@
-import 'biggest_results.dart';
-import 'cards.dart';
-import 'detailed_goals.dart';
 import 'games_per_lineup.dart';
-import 'played_games.dart';
-import 'team_fixtures.dart';
+import 'biggest_results.dart';
 import 'total_penalties.dart';
+import 'detailed_goals.dart';
+import 'team_fixtures.dart';
+import 'played_games.dart';
+import 'cards.dart';
 
 class LeagueStats {
   final String? form;

@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-import 'package:intl/intl.dart';
-
 import '../../constants/default_values.dart';
 import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:gap/gap.dart';
+
 
 class LikeButton extends StatefulWidget {
   const LikeButton({

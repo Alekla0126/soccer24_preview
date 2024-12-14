@@ -1,3 +1,4 @@
+
 class FixtureEventPlayer {
   final int? id;
   final String? name;

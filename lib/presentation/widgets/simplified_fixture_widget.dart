@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../constants/assets.dart';
 import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
 import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../constants/assets.dart';
+import 'package:gap/gap.dart';
 import 'custom_image.dart';
+
 
 class SimplifiedFixtureWidget extends StatelessWidget {
   const SimplifiedFixtureWidget({

@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'players_statistic.dart';
+import '../paging.dart';
 
 class PlayersStatistics {
   final int results;

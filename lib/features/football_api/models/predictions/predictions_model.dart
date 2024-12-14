@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'predictions_details.dart';
+import '../paging.dart';
 
 class PredictionsModel {
   final int resultsCount;

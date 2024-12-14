@@ -1,13 +1,13 @@
+import '../../features/football_api/models/predictions/prediction_teams.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
-
-import '../../constants/colors.dart';
-import '../../constants/default_values.dart';
 import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
-import '../../features/football_api/models/predictions/prediction_teams.dart';
+import '../../constants/colors.dart';
+import 'package:gap/gap.dart';
 import 'shadowless_card.dart';
+
 
 class Last5StatsCard extends StatefulWidget {
   const Last5StatsCard({super.key, required this.stats});

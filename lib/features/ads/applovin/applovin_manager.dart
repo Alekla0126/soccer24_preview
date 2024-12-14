@@ -1,9 +1,9 @@
-import 'dart:math';
-
 import 'package:applovin_max/applovin_max.dart';
 import 'package:flutter/material.dart';
-
 import '../../../_env/env.dart';
+import 'dart:math';
+
+
 
 class ApplovinManager {
   ApplovinManager._();

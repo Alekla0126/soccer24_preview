@@ -1,20 +1,20 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
-import '../../constants/bet_smart_icons.dart';
-import '../../constants/colors.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/enums.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/standings/all_stats.dart';
 import '../../features/football_api/models/standings/standing.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/bet_smart_icons.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../constants/assets.dart';
+import '../../constants/colors.dart';
+import '../../extensions/enums.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
+import 'standing_text.dart';
 import 'custom_image.dart';
 import 'form_blocs.dart';
-import 'standing_text.dart';
+
 
 
 
@@ -250,4 +250,3 @@ class StandingWidget extends StatelessWidget {
     );
   }
 }
-

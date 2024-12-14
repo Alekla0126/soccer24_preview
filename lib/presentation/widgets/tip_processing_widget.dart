@@ -1,17 +1,17 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
+import '../../features/tips/repositories/tips_repository.dart';
 import '../../features/tips/blocs/tip_cubit/tip_cubit.dart';
 import '../../features/tips/models/tip_model.dart';
-import '../../features/tips/repositories/tips_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
 import 'outlined_text_form_field.dart';
+import '../../constants/strings.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
 import 'tip_card.dart';
+
 
 class TipProcessingWidget extends StatefulWidget {
   const TipProcessingWidget({super.key, required this.tip});

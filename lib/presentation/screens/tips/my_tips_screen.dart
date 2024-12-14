@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../constants/strings.dart';
 import '../../../features/tips/repositories/tips_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../constants/strings.dart';
+import 'package:flutter/material.dart';
 import 'tips_list.dart';
+
 
 class MyTipsScreen extends StatelessWidget {
   const MyTipsScreen({super.key});

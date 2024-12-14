@@ -1,26 +1,24 @@
-import 'dart:io';
-
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:intl/intl.dart';
-import 'package:rate_my_app/rate_my_app.dart';
-import 'package:share_plus/share_plus.dart';
-import 'package:url_launcher/url_launcher.dart';
-
-import '../_package_info/app_info.dart';
-import '../constants/colors.dart';
-import '../constants/constants.dart';
-import '../constants/strings.dart';
-import '../extensions/enums.dart';
-import '../extensions/extensions.dart';
-import '../features/pin_leagues/models/pinned_league.dart';
 import '../features/football_api/models/fixture/fixture_details.dart';
 import '../features/football_api/models/leagues/league_model.dart';
 import '../features/football_api/models/leagues/season.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../features/pin_leagues/models/pinned_league.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:rate_my_app/rate_my_app.dart';
+import 'package:share_plus/share_plus.dart';
+import 'package:flutter/foundation.dart';
+import '../_package_info/app_info.dart';
+import 'package:flutter/material.dart';
+import '../extensions/extensions.dart';
+import '../constants/constants.dart';
+import '../constants/strings.dart';
+import '../constants/colors.dart';
+import '../extensions/enums.dart';
+import 'package:intl/intl.dart';
+import 'dart:io';
 
 class Utils {
   Utils._();

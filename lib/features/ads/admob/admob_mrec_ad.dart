@@ -2,8 +2,8 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../../../constants/constants.dart';
 import 'package:flutter/material.dart';
 import '../../../_env/env.dart';
-
 import 'admob_manager.dart';
+
 
 class AdmobMRecAd extends StatefulWidget {
   const AdmobMRecAd({super.key});

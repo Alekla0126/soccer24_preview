@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-
 import '../../constants/default_values.dart';
 import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+
 
 class TextDivider extends StatelessWidget {
   const TextDivider({

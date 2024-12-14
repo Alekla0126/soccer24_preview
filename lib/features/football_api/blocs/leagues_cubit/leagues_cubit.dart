@@ -1,10 +1,10 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../services/api_service_error.dart';
-import '../../models/leagues/league_model.dart';
 import '../../repositories/leagues_repository.dart';
-import '../api_state.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../models/leagues/league_model.dart';
 import 'leagues_state.dart';
+import '../api_state.dart';
+
 
 class LeaguesCubit extends Cubit<ApiState> {
   final LeaguesRepository _repository;

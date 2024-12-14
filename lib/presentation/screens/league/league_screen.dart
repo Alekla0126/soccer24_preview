@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../../_utils/utils.dart';
-import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
-import '../../../extensions/extensions.dart';
-import '../../../features/ads/ads_manager.dart';
 import '../../../features/football_api/models/leagues/league_model.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../../constants/default_values.dart';
+import '../../../features/ads/ads_manager.dart';
+import '../../../extensions/extensions.dart';
+import '../../../constants/strings.dart';
 import '../fixture/standings_page.dart';
 import '../fixtures/fixtures_page.dart';
+import 'package:flutter/material.dart';
+import '../../../_utils/utils.dart';
 import 'top_players_page.dart';
+import 'package:gap/gap.dart';
+
 
 class LeagueScreen extends StatefulWidget {
   const LeagueScreen({super.key, required this.league});

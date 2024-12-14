@@ -1,7 +1,7 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../models/pinned_league.dart';
 import '../../repositories/pin_leagues_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../models/pinned_league.dart';
+
 
 class PinnedLeagueCubit extends Cubit<bool> {
   final PinLeaguesRepository _repository;

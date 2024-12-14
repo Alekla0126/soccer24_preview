@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'fixture_details.dart';
+import '../paging.dart';
 
 class FixturesResponse {
   final int results;

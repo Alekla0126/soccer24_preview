@@ -1,6 +1,6 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../features/football_api/models/odds/bet.dart';
+
 
 class DefaultValues {
   DefaultValues._();

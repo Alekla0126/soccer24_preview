@@ -1,6 +1,6 @@
 import 'goals_average.dart';
-import 'played_games.dart';
 import 'rate_of_total.dart';
+import 'played_games.dart';
 
 class GoalsStatistics {
   final PlayedGames? total;

@@ -1,3 +1,4 @@
+
 part of 'tip_cubit.dart';
 
 sealed class TipProcessingState extends Equatable {

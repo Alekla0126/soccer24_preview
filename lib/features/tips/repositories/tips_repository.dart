@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
 import '../../../constants/constants.dart';
-import '../models/tip_like.dart';
 import '../models/tip_model.dart';
+import '../models/tip_like.dart';
+
 
 class TipsRepository {
   final FirebaseFirestore _db = FirebaseFirestore.instance;

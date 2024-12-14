@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../constants/constants.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/predictions/prediction_teams.dart';
-import 'compare_widget.dart';
-import 'form_blocs.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import '../../constants/constants.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import 'package:gap/gap.dart';
 import 'shadowless_card.dart';
+import 'compare_widget.dart';
 import 'text_divider.dart';
+import 'form_blocs.dart';
+
 
 class LeagueStatsCard extends StatefulWidget {
   const LeagueStatsCard({super.key, required this.stats, required this.leagueName});

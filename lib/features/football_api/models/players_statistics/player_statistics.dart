@@ -1,5 +1,5 @@
-import 'player.dart';
 import 'player_statistic.dart';
+import 'player.dart';
 
 class PlayerStatistics {
   final Player player;

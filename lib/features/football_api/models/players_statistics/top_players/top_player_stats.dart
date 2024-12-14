@@ -1,5 +1,5 @@
-import 'player_info.dart';
 import 'top_player_statistic.dart';
+import 'player_info.dart';
 
 class TopPlayersStats {
   final PlayerInfo player;

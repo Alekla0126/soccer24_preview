@@ -1,9 +1,9 @@
-import 'package:equatable/equatable.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../../../../constants/strings.dart';
-import '../../models/tip_model.dart';
 import '../../repositories/tips_repository.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../constants/strings.dart';
+import 'package:equatable/equatable.dart';
+import '../../models/tip_model.dart';
+
 
 part 'tip_state.dart';
 

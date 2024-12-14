@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/default_values.dart';
+import '../../_package_info/app_info.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../_utils/utils.dart';
 import 'package:gap/gap.dart';
 
-import '../../_package_info/app_info.dart';
-import '../../_utils/utils.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 
 class ExitDialog extends StatelessWidget {
   const ExitDialog({super.key, required this.onExit});

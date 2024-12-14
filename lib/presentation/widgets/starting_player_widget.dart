@@ -1,21 +1,21 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/assets.dart';
-import '../../constants/colors.dart';
-import '../../constants/default_values.dart';
-import '../../extensions/extensions.dart';
-import '../../features/ads/applovin/applovin_manager.dart';
 import '../../features/football_api/blocs/fixture_lineups_cubit/fixture_lineups_cubit.dart';
 import '../../features/football_api/blocs/fixture_lineups_cubit/fixture_lineups_state.dart';
 import '../../features/football_api/models/players_statistics/player_statistics.dart';
 import '../../features/football_api/models/players_statistics/players_statistic.dart';
-import 'custom_image.dart';
-import 'player_rating.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../features/ads/applovin/applovin_manager.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/assets.dart';
+import '../../constants/colors.dart';
 import 'player_stats_widget.dart';
+import '../../_utils/utils.dart';
+import 'package:gap/gap.dart';
+import 'player_rating.dart';
+import 'custom_image.dart';
+
 
 class StartingPlayerWidget extends StatelessWidget {
   const StartingPlayerWidget({

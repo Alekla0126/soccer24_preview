@@ -1,8 +1,8 @@
-import '../../../_utils/utils.dart';
+import '../models/leagues/league_model.dart';
 import '../../../constants/constants.dart';
 import '../../services/api_services.dart';
-import '../models/leagues/league_model.dart';
 import '../models/leagues/leagues.dart';
+import '../../../_utils/utils.dart';
 
 class LeaguesRepository {
   Future<List<LeagueModel>> getLeagues({

@@ -1,7 +1,7 @@
+import '../../football_api/models/odds/bet_value.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import '../../football_api/models/odds/bet_value.dart';
 
 class Tip {
   final String? id;

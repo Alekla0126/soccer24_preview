@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
+import '../../features/football_api/models/odds/bet_value.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../../constants/default_values.dart';
 import '../../extensions/extensions.dart';
-import '../../features/football_api/models/odds/bet_value.dart';
+import 'package:flutter/material.dart';
+
 
 class BetValueWidget extends StatelessWidget {
   const BetValueWidget({

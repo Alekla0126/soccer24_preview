@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
-
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 import '../../features/football_api/models/fixture/fixture_details.dart';
+import '../../constants/default_values.dart';
 import 'prediction_h2h_fixture_widget.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
 import 'shadowless_card.dart';
+
 
 class H2HCard extends StatelessWidget {
   const H2HCard({super.key, required this.headToHead});

@@ -1,7 +1,7 @@
-import 'package:hive/hive.dart';
-
 import '../../../constants/constants.dart';
 import '../models/pinned_league.dart';
+import 'package:hive/hive.dart';
+
 
 class PinLeaguesRepository {
   final Box<PinnedLeague> _box = Hive.box<PinnedLeague>(Constants.pinnedLeaguesBox);

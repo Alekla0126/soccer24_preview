@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../../constants/bet_smart_icons.dart';
 import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+
 
 class CustomListTile extends StatelessWidget {
   const CustomListTile({

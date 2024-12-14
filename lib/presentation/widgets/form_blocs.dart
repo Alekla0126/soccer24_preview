@@ -1,11 +1,11 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/strings.dart';
+import '../../constants/colors.dart';
 import 'package:gap/gap.dart';
 
-import '../../constants/colors.dart';
-import '../../constants/default_values.dart';
-import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
 
 class FormBlocs extends StatelessWidget {
   const FormBlocs({

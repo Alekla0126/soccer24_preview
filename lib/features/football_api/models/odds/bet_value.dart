@@ -1,5 +1,5 @@
-import 'package:equatable/equatable.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:equatable/equatable.dart';
 
 part 'bet_value.g.dart';
 

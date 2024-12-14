@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'league_model.dart';
+import '../paging.dart';
 
 class Leagues {
   final int results;

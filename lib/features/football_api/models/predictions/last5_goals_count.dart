@@ -1,3 +1,4 @@
+
 class Last5GoalsCount {
   final int? total;
   final String? average;

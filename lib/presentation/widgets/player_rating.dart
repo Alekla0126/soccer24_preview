@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import '../../constants/colors.dart';
 import '../../constants/default_values.dart';
 import '../../extensions/extensions.dart';
+import 'package:flutter/material.dart';
+import '../../constants/colors.dart';
+
 
 class PlayerRating extends StatelessWidget {
   const PlayerRating({super.key, required this.rating, this.style, this.padding});

@@ -1,12 +1,12 @@
+import '../../repositories/fixtures_repository.dart';
+import '../../models/fixture/fixture_details.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../../extensions/extensions.dart';
+import '../api_state.dart';
 import 'dart:async';
 
-import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../extensions/extensions.dart';
-import '../../../services/api_service_error.dart';
-import '../../models/fixture/fixture_details.dart';
-import '../../repositories/fixtures_repository.dart';
-import '../api_state.dart';
 
 part 'fixtures_state.dart';
 

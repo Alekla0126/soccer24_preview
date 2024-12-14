@@ -1,15 +1,15 @@
-import 'package:email_validator/email_validator.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-
+import 'package:email_validator/email_validator.dart';
+import '../../widgets/outlined_text_form_field.dart';
 import '../../../constants/bet_smart_icons.dart';
 import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
 import '../../../extensions/extensions.dart';
-import '../../widgets/accept_terms.dart';
 import '../../widgets/app_info_widget.dart';
-import '../../widgets/outlined_text_form_field.dart';
+import '../../../constants/strings.dart';
+import '../../widgets/accept_terms.dart';
+import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({

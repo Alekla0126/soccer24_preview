@@ -1,14 +1,14 @@
 import 'package:email_validator/email_validator.dart';
+import '../../widgets/outlined_text_form_field.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
-
-import '../../../_utils/utils.dart';
 import '../../../constants/default_values.dart';
+import '../../../extensions/extensions.dart';
 import '../../../constants/strings.dart';
 import '../../../extensions/enums.dart';
-import '../../../extensions/extensions.dart';
-import '../../widgets/outlined_text_form_field.dart';
+import 'package:flutter/material.dart';
+import '../../../_utils/utils.dart';
+import 'package:gap/gap.dart';
+
 
 class ContactUsScreen extends StatefulWidget {
   const ContactUsScreen({super.key});

@@ -1,5 +1,5 @@
-import '../paging.dart';
 import 'pre_match_odds.dart';
+import '../paging.dart';
 
 class PreMatchOddsModel {
   final int results;

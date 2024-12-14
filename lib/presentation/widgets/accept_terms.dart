@@ -1,10 +1,10 @@
+import '../../extensions/extensions.dart';
+import '../../constants/constants.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
-import '../../_utils/utils.dart';
-import '../../constants/constants.dart';
 import '../../constants/strings.dart';
-import '../../extensions/extensions.dart';
+import '../../_utils/utils.dart';
+
 
 class AcceptTerms extends StatelessWidget {
   const AcceptTerms({super.key});

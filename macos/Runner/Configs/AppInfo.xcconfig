@@ -8,7 +8,7 @@
 PRODUCT_NAME = betsmart
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.alekla0126.betsmart
+PRODUCT_BUNDLE_IDENTIFIER = com.alekla0126.soccer24
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 com.alekla0126. All rights reserved.

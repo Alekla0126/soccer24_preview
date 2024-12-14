@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import 'fixture.dart';
-import 'goals.dart';
 import 'league.dart';
+import 'goals.dart';
 import 'score.dart';
 import 'teams.dart';
+
 
 class FixtureDetails {
   final Fixture fixture;

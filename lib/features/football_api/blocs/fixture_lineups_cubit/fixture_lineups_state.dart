@@ -1,5 +1,5 @@
-import '../../models/lineups/fixture_lineup.dart';
 import '../../models/players_statistics/players_statistic.dart';
+import '../../models/lineups/fixture_lineup.dart';
 import '../api_state.dart';
 
 class FixtureLineupsLoadedState extends ApiState {

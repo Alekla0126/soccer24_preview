@@ -1,8 +1,8 @@
+import '../../constants/default_values.dart';
+import '../../extensions/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../constants/default_values.dart';
-import '../../extensions/extensions.dart';
 
 class OutlinedTextFormField extends StatelessWidget {
   const OutlinedTextFormField({

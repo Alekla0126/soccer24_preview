@@ -1,3 +1,4 @@
+
 part of 'pinned_leagues_bloc.dart';
 
 sealed class PinnedLeaguesEvent extends Equatable {

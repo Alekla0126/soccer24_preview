@@ -1,22 +1,22 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
-import 'package:intl/intl.dart';
-
-import '../../../constants/bet_smart_icons.dart';
-import '../../../constants/constants.dart';
-import '../../../constants/default_values.dart';
-import '../../../constants/strings.dart';
-import '../../../extensions/extensions.dart';
 import '../../../features/football_api/models/fixture/league.dart';
-import '../../../features/football_api/models/odds/bet.dart';
-import '../../../features/tips/models/tip_model.dart';
 import '../../../features/tips/repositories/tips_repository.dart';
+import '../../../features/football_api/models/odds/bet.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import '../../../features/tips/models/tip_model.dart';
+import '../../../constants/bet_smart_icons.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../constants/default_values.dart';
 import '../../widgets/leagues_selection.dart';
+import '../../../extensions/extensions.dart';
 import '../../widgets/shadowless_card.dart';
+import '../../../constants/constants.dart';
+import '../../../constants/strings.dart';
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
+import 'package:gap/gap.dart';
 import 'tips_list.dart';
+
 
 class TipsPage extends StatefulWidget {
   const TipsPage({super.key});
@@ -467,7 +467,6 @@ class _TipsPageState extends State<TipsPage>
     });
   }
 }
-
 
 
 

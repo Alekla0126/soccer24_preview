@@ -1,6 +1,6 @@
-import 'coach.dart';
 import 'fixture_team.dart';
 import 'start_xi.dart';
+import 'coach.dart';
 
 class FixtureLineup {
   final FixtureTeam? team;

@@ -1,7 +1,7 @@
 import 'package:applovin_max/applovin_max.dart';
 import 'package:flutter/material.dart';
-
 import '../../../_env/env.dart';
+
 
 class ApplovinMRecAd extends StatefulWidget {
   const ApplovinMRecAd({super.key});

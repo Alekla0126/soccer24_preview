@@ -1,3 +1,4 @@
+
 class GoalsAverage {
   final String? home;
   final String? away;

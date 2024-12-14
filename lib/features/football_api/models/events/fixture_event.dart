@@ -1,7 +1,7 @@
 import '../../../../extensions/enums.dart';
-import '../fixture/team.dart';
 import 'fixture_event_player.dart';
 import 'fixture_event_time.dart';
+import '../fixture/team.dart';
 
 class FixtureEvent {
   final FixtureEventTime? time;

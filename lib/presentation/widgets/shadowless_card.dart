@@ -1,6 +1,6 @@
+import '../../extensions/extensions.dart';
 import 'package:flutter/material.dart';
 
-import '../../extensions/extensions.dart';
 
 class ShadowlessCard extends StatelessWidget {
   final Color? color;

@@ -1,11 +1,11 @@
+import '../../repositories/fixtures_repository.dart';
+import '../../models/fixture/fixture_details.dart';
+import '../../../services/api_service_error.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../api_state.dart';
 import 'dart:async';
 
-import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../services/api_service_error.dart';
-import '../../models/fixture/fixture_details.dart';
-import '../../repositories/fixtures_repository.dart';
-import '../api_state.dart';
 
 part 'fixture_state.dart';
 

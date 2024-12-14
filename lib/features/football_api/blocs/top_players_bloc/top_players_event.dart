@@ -1,3 +1,4 @@
+
 part of 'top_players_bloc.dart';
 
 sealed class TopPlayersEvent extends Equatable {

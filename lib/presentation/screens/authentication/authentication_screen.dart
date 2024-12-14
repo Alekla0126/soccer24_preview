@@ -1,15 +1,15 @@
+import '../../../features/authentication/blocs/sign_in_bloc/sign_in_bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../extensions/extensions.dart';
+import '../../widgets/loading_widget.dart';
+import '../../widgets/exit_dialog.dart';
+import 'pre_authentication_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../_utils/utils.dart';
-import '../../../extensions/extensions.dart';
-import '../../../features/authentication/blocs/sign_in_bloc/sign_in_bloc.dart';
-import '../../widgets/exit_dialog.dart';
-import '../../widgets/loading_widget.dart';
-import 'login_page.dart';
-import 'pre_authentication_screen.dart';
 import 'register_page.dart';
+import 'login_page.dart';
+
 
 class AuthenticationScreen extends StatefulWidget {
   const AuthenticationScreen({super.key});

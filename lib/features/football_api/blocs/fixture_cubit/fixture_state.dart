@@ -1,3 +1,4 @@
+
 part of 'fixture_cubit.dart';
 
 class FixtureLoadedState extends ApiState {
